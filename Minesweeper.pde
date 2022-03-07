@@ -150,12 +150,12 @@ public class MSButton
         else if( clicked && mines.contains(this) )
             fill(200,140,245);
         else if(clicked)
-            fill( 220 );
+            fill( 180 );
         else
-            fill( 150 );
+            fill( 120 );
 
         rect(x, y, width, height);
-        fill(0,0,255);
+        fill(200,200,255);
         text(myLabel,x+width/2,y+height/2);
     }
     public void setLabel(String newLabel)
